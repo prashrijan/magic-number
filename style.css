@@ -47,3 +47,8 @@ button{
     color: #fff;
     border-radius: 3rem;
 }
+
+.result{
+    font-size: 1.3rem;
+    text-align: center;
+}
