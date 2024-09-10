@@ -17,11 +17,24 @@ html,body{
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    padding: 2rem;
+    width: 100%;
 }
 
 .wrapper-container h1{
-    width: 400px;
     text-align: center;
+}
+
+
+
+.rules-container h2{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.rules-container ul li{
+    font-size: 1.3rem;
 }
 
 
