@@ -2,9 +2,48 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Neue Machina';
 }
 
 html,body{
     width:100%;
     height:100%;
+}
+
+.wrapper-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.wrapper-container h1{
+    width: 400px;
+    text-align: center;
+}
+
+
+.grid-board tr td{
+    text-align: center;
+
+}
+
+.grid-board tr td input{
+    text-align: center;
+    height: 90px;
+    width: 90px;
+    font-size: 2rem;
+    outline: none;
+}
+
+button{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #006494;
+    color: #fff;
+    border-radius: 3rem;
 }
